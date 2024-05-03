@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\c\CS\BigProject\CMSL\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-05-03T12:48:16.207</Modified>
+      <Modified>2024-05-03T14:28:31.753</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\c\CS\BigProject\CMSL\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-05-03T12:48:15.771</Modified>
+      <Modified>2024-05-03T14:22:47.869</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\c\CS\BigProject\CMSL\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\CMSL.runtimeconfig.json">
       <PackagePath>CMSL.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\c\CS\BigProject\CMSL\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\CMSL.dll">
       <PackagePath>CMSL.dll</PackagePath>
-      <Modified>2024-05-03T12:48:15.070</Modified>
+      <Modified>2024-05-03T14:28:31.291</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\c\CS\BigProject\CMSL\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>CMSL.exe</PackagePath>
-      <Modified>2024-05-03T12:48:15.120</Modified>
+      <Modified>2024-05-03T14:28:31.298</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\c\CS\BigProject\CMSL\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\CMSL.deps.json">
       <PackagePath>CMSL.deps.json</PackagePath>
