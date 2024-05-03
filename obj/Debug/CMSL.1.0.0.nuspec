@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CMSL</id>
+    <version>1.0.0</version>
+    <authors>CMSL</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net6.0-windows10.0.19041">
+        <dependency id="CommunityToolkit.WinUI.Notifications" version="7.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Windows.SDK.BuildTools" version="10.0.22621.3233" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.WindowsAppSDK" version="1.5.240404000" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/net6.0-windows10.0.19041/Assets/LockScreenLogo.scale-200.png" buildAction="Content" />
+      <files include="any/net6.0-windows10.0.19041/Assets/SplashScreen.scale-200.png" buildAction="Content" />
+      <files include="any/net6.0-windows10.0.19041/Assets/Square150x150Logo.scale-200.png" buildAction="Content" />
+      <files include="any/net6.0-windows10.0.19041/Assets/Square44x44Logo.scale-200.png" buildAction="Content" />
+      <files include="any/net6.0-windows10.0.19041/Assets/Square44x44Logo.targetsize-24_altform-unplated.png" buildAction="Content" />
+      <files include="any/net6.0-windows10.0.19041/Assets/StoreLogo.png" buildAction="Content" />
+      <files include="any/net6.0-windows10.0.19041/Assets/Wide310x150Logo.scale-200.png" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="D:\c\CS\BigProject\CMSL\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\CMSL.runtimeconfig.json" target="lib\net6.0-windows10.0.19041\CMSL.runtimeconfig.json" />
+    <file src="D:\c\CS\BigProject\CMSL\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\CMSL.dll" target="lib\net6.0-windows10.0.19041\CMSL.dll" />
+    <file src="D:\c\CS\BigProject\CMSL\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\CMSL.pri" target="lib\net6.0-windows10.0.19041\CMSL.pri" />
+    <file src="D:\c\CS\BigProject\CMSL\Assets\LockScreenLogo.scale-200.png" target="content\Assets\LockScreenLogo.scale-200.png" />
+    <file src="D:\c\CS\BigProject\CMSL\Assets\LockScreenLogo.scale-200.png" target="contentFiles\any\net6.0-windows10.0.19041\Assets\LockScreenLogo.scale-200.png" />
+    <file src="D:\c\CS\BigProject\CMSL\Assets\SplashScreen.scale-200.png" target="content\Assets\SplashScreen.scale-200.png" />
+    <file src="D:\c\CS\BigProject\CMSL\Assets\SplashScreen.scale-200.png" target="contentFiles\any\net6.0-windows10.0.19041\Assets\SplashScreen.scale-200.png" />
+    <file src="D:\c\CS\BigProject\CMSL\Assets\Square150x150Logo.scale-200.png" target="content\Assets\Square150x150Logo.scale-200.png" />
+    <file src="D:\c\CS\BigProject\CMSL\Assets\Square150x150Logo.scale-200.png" target="contentFiles\any\net6.0-windows10.0.19041\Assets\Square150x150Logo.scale-200.png" />
+    <file src="D:\c\CS\BigProject\CMSL\Assets\Square44x44Logo.scale-200.png" target="content\Assets\Square44x44Logo.scale-200.png" />
+    <file src="D:\c\CS\BigProject\CMSL\Assets\Square44x44Logo.scale-200.png" target="contentFiles\any\net6.0-windows10.0.19041\Assets\Square44x44Logo.scale-200.png" />
+    <file src="D:\c\CS\BigProject\CMSL\Assets\Square44x44Logo.targetsize-24_altform-unplated.png" target="content\Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <file src="D:\c\CS\BigProject\CMSL\Assets\Square44x44Logo.targetsize-24_altform-unplated.png" target="contentFiles\any\net6.0-windows10.0.19041\Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <file src="D:\c\CS\BigProject\CMSL\Assets\StoreLogo.png" target="content\Assets\StoreLogo.png" />
+    <file src="D:\c\CS\BigProject\CMSL\Assets\StoreLogo.png" target="contentFiles\any\net6.0-windows10.0.19041\Assets\StoreLogo.png" />
+    <file src="D:\c\CS\BigProject\CMSL\Assets\Wide310x150Logo.scale-200.png" target="content\Assets\Wide310x150Logo.scale-200.png" />
+    <file src="D:\c\CS\BigProject\CMSL\Assets\Wide310x150Logo.scale-200.png" target="contentFiles\any\net6.0-windows10.0.19041\Assets\Wide310x150Logo.scale-200.png" />
+  </files>
+</package>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="CMSL.NotFoundPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CMSL"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid ToolTipService.ToolTip="出现此页面情报告给开发者">
+        <TextBlock Text="没有找到该页面!" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,100"></TextBlock>
+        <TextBlock Text="肯定被小云吃掉了(小声)" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,40"></TextBlock>
+        <HyperlinkButton x:ConnectionId='2' x:Name="QQGroup" Content="报告开发者" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+    </Grid>
+</Page>
+

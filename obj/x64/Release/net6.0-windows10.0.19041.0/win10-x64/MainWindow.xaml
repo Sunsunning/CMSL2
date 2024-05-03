@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="CMSL.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CMSL"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Grid>
+        <NavigationView x:ConnectionId='2' x:Name="nanView" IsPaneOpen="False"                                                   >
+            <NavigationView.MenuItems>
+                <NavigationViewItem x:ConnectionId='3' Icon="Home"  Content="主页面" Tag="Home" x:Name="MainPages"/>
+                <NavigationViewItem x:ConnectionId='4' Icon="Add" Content="创建你的服务器!" Tag="AddServer" x:Name="AddServePages"/>
+                <NavigationViewItem x:ConnectionId='5' Icon="Download" Content="下载核心" Tag="Download" x:Name="DownloadPages"/>
+                <NavigationViewItem x:ConnectionId='6' Icon="Play" Content="服务器管理" Tag="Play" x:Name="PlayPages"/>
+            </NavigationView.MenuItems>
+            <Frame x:ConnectionId='7' x:Name="PagesContent" />
+        </NavigationView>
+    </Grid>
+</Window>
+

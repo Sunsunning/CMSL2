@@ -1,0 +1,1 @@
+D:\c\CS\BigProject\CMSL\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\AppPackages\CMSL_1.0.2.0_x64_Debug_Test\CMSL_1.0.2.0_x64_Debug.msix

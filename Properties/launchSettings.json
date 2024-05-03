@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "CMSL (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "CMSL (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
