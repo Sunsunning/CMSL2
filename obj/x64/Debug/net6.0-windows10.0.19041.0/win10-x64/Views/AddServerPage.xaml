@@ -15,8 +15,8 @@
                 <x:String>Paper</x:String>
             </ComboBox>
             <ComboBox x:ConnectionId='4' x:Name="version" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="57,120,15,0" Header="服务端版本" ></ComboBox>
-            <NumberBox x:ConnectionId='5' x:Name="Min" Header="最小运行内存" Value="1" SpinButtonPlacementMode="Inline" SmallChange="10" LargeChange="100" HorizontalAlignment="Stretch" VerticalAlignment="Top"  Margin="57,180,15,0" Minimum="1"/>
-            <NumberBox x:ConnectionId='6' x:Name="Max" Header="最大运行内存" Value="1" SpinButtonPlacementMode="Inline" SmallChange="10" LargeChange="100" HorizontalAlignment="Stretch" VerticalAlignment="Top"  Margin="57,240,15,0" Minimum="1"/>
+            <NumberBox x:ConnectionId='5' x:Name="Min" Header="最小运行内存" Value="1" SpinButtonPlacementMode="Inline" SmallChange="1" LargeChange="2" HorizontalAlignment="Stretch" VerticalAlignment="Top"  Margin="57,180,15,0" Minimum="1"/>
+            <NumberBox x:ConnectionId='6' x:Name="Max" Header="最大运行内存" Value="1" SpinButtonPlacementMode="Inline" SmallChange="1" LargeChange="2" HorizontalAlignment="Stretch" VerticalAlignment="Top"  Margin="57,240,15,0" Minimum="1"/>
             <HyperlinkButton x:ConnectionId='7' x:Name="go" HorizontalAlignment="Right" VerticalAlignment="Bottom" Content="给我一个Star~" NavigateUri="https://github.com/Sunsunning/cmsl" />
             <Button x:ConnectionId='8' x:Name="create"                      Content="确认并创建此配置"  Style="{StaticResource AccentButtonStyle}" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,304,158,0"></Button>
             <Button x:ConnectionId='9' x:Name="cancle"                      Content="取消配置"  HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,304,15,0" Width="136"  />

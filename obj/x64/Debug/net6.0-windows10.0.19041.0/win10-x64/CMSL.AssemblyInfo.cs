@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CMSL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e586f9845381d831e5726a68c3ad2e5f2da0f1d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+791935e6d21a594a1dd43824ff82eb05f4c9669f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CMSL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CMSL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

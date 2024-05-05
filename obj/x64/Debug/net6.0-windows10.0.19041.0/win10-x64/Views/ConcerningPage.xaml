@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="CMSL.Views.ConcerningPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CMSL.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <!--StackPanel~~~-->
+    <StackPanel>
+    <StackPanel Spacing="-5">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="MIT License" FontWeight="Bold" FontSize="25" IsTextSelectionEnabled="True"></TextBlock>
+
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="Copyright (c) 2024 Chuan_Yuu" FontSize="15" IsTextSelectionEnabled="True"></TextBlock>
+    </StackPanel>
+        <StackPanel>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="Permission is hereby granted, free of charge, to any person obtaining a copy" FontSize="15"  IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="of this software and associated documentation files (the Software), to deal" FontSize="15" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="in the Software without restriction, including without limitation the rights" FontSize="15" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="to use, copy, modify, merge, publish, distribute, sublicense, and/or sell" FontSize="15" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="copies of the Software, and to permit persons to whom the Software is" FontSize="15" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="furnished to do so, subject to the following conditions:" FontSize="15" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text=" " FontSize="14" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="The above copyright notice and this permission notice shall be included in all" FontSize="15" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="copies or substantial portions of the Software." FontSize="15" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text=" " FontSize="14" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="THE SOFTWARE IS PROVIDED (AS IS), WITHOUT WARRANTY OF ANY KIND, EXPRESS OR" FontSize="14" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY," FontSize="14" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE" FontSize="14" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER" FontSize="14" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM," FontSize="14" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE" FontSize="14" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="SOFTWARE." FontSize="14" IsTextSelectionEnabled="True"></TextBlock>
+        </StackPanel>    
+    
+    </StackPanel>
+</Page>
+
