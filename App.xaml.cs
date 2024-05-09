@@ -35,7 +35,7 @@ namespace CMSL
         public App()
         {
             this.InitializeComponent();
-
+            // 我才是最抽的人!
             CreateDirectory("D:\\CMSL");
             CreateDirectory("D:\\CMSL\\MyDownload");
             CreateDirectory("D:\\CMSL\\java");
