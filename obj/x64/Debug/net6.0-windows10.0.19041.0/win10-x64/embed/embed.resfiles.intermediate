@@ -2,6 +2,7 @@ App.xbf
 MainWindow.xbf
 Views\AddServerPage.xbf
 Views\ConcerningPage.xbf
+Views\DownloadManager.xbf
 Views\HomePage.xbf
 Views\NotFoundPage.xbf
 Views\SettingPage.xbf

@@ -314,3 +314,8 @@ D:\c\CS\BigProject\CMSL\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Views
 D:\c\CS\BigProject\CMSL\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Views\ConcerningPage.g.cs
 D:\c\CS\BigProject\CMSL\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Views\ConcerningPage.xaml
 D:\c\CS\BigProject\CMSL\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Views\ConcerningPage.xbf
+D:\c\CS\BigProject\CMSL\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Views\DownloadManager.xbf
+D:\c\CS\BigProject\CMSL\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Views\DownloadManager.g.i.cs
+D:\c\CS\BigProject\CMSL\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Views\DownloadManager.g.cs
+D:\c\CS\BigProject\CMSL\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Views\DownloadManager.xaml
+D:\c\CS\BigProject\CMSL\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Views\DownloadManager.xbf

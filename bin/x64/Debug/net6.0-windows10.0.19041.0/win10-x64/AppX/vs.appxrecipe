@@ -29,29 +29,29 @@
     <AppXManifest Include="D:\c\CS\BigProject\CMSL\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-05-05T10:39:07.815</Modified>
+      <Modified>2024-05-09T12:29:10.268</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\c\CS\BigProject\CMSL\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-05-05T10:18:24.449</Modified>
+      <Modified>2024-05-08T13:46:27.202</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\c\CS\BigProject\CMSL\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\CMSL.runtimeconfig.json">
       <PackagePath>CMSL.runtimeconfig.json</PackagePath>
-      <Modified>2024-05-03T12:35:43.670</Modified>
+      <Modified>2024-05-05T11:16:28.009</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\c\CS\BigProject\CMSL\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\CMSL.dll">
       <PackagePath>CMSL.dll</PackagePath>
-      <Modified>2024-05-05T10:39:07.222</Modified>
+      <Modified>2024-05-09T12:29:09.918</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\c\CS\BigProject\CMSL\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>CMSL.exe</PackagePath>
-      <Modified>2024-05-05T10:39:07.229</Modified>
+      <Modified>2024-05-09T12:29:09.923</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\c\CS\BigProject\CMSL\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\CMSL.deps.json">
       <PackagePath>CMSL.deps.json</PackagePath>
-      <Modified>2024-05-03T12:48:15.533</Modified>
+      <Modified>2024-05-05T14:37:47.995</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Administrator\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.29\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>

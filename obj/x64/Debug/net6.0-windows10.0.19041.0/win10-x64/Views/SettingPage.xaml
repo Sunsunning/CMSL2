@@ -25,7 +25,7 @@
                     </Viewbox>
                     <TextBlock Text="推送模式" FontSize="15" Grid.Column="1" Margin="5,16,43,0" VerticalAlignment="Top"/>
                     <TextBlock Text="让你更加简单的观察程序" FontSize="12" Foreground="Gray" Grid.Column="1" Margin="5,32,43,0" Height="17" VerticalAlignment="Top"/>
-                    <ComboBox x:ConnectionId='5' x:Name="Selectednotices"                                              Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,10,0">
+                    <ComboBox x:ConnectionId='6' x:Name="Selectednotices"                                              Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,10,0">
                         <x:String>关闭</x:String>
                         <x:String>Toast(Win10+)</x:String>
                         <x:String>Notifity(不支持)</x:String>
@@ -45,7 +45,7 @@
                     </Viewbox>
                     <TextBlock Text="默认存放地址" FontSize="15" Grid.Column="1" Margin="5,16,43,0" VerticalAlignment="Top"/>
                     <TextBlock Text="服务器及配置文件根目录" FontSize="12" Foreground="Gray" Grid.Column="1" Margin="7,32,41,0" Height="17" VerticalAlignment="Top"/>
-                    <TextBox x:ConnectionId='4' x:Name="SaveDirectory"                                         PlaceholderText="文件夹路径" Grid.Column="1" Height="35" Width="200" HorizontalAlignment="Right" VerticalAlignment="Center"  Margin="0,0,10,0" IsEnabled="False"></TextBox>
+                    <TextBox x:ConnectionId='5' x:Name="SaveDirectory"                                         PlaceholderText="文件夹路径" Grid.Column="1" Height="35" Width="200" HorizontalAlignment="Right" VerticalAlignment="Center"  Margin="0,0,10,0" IsEnabled="False"></TextBox>
                 </Grid>
             </Border>
 
@@ -61,11 +61,27 @@
                     </Viewbox>
                     <TextBlock Text="下载源" FontSize="15" Grid.Column="1" Margin="5,16,43,0" VerticalAlignment="Top"/>
                     <TextBlock Text="提供服务端版本以及下载的API设置" FontSize="12" Foreground="Gray" Grid.Column="1" Margin="7,32,41,0" Height="17" VerticalAlignment="Top"/>
-                    <TextBox x:ConnectionId='3' x:Name="DownloadSource"                                           PlaceholderText="DownloadSource" Grid.Column="1" Height="35" Width="200" HorizontalAlignment="Right" VerticalAlignment="Center"  Margin="0,0,10,0"></TextBox>
+                    <TextBox x:ConnectionId='4' x:Name="DownloadSource"                                           PlaceholderText="DownloadSource" Grid.Column="1" Height="35" Width="200" HorizontalAlignment="Right" VerticalAlignment="Center"  Margin="0,0,10,0"></TextBox>
                 </Grid>
             </Border>
 
-            
+            <Border Background="White" CornerRadius="2" VerticalAlignment="Top"  Height="67" Margin="56,256,36,0" ToolTipService.ToolTip="目前只有CMSL自制API">
+                <Grid >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Viewbox Width="25" Height="25" Margin="20,0,10,0">
+                        <FontIcon Glyph="&#xE896;"/>
+                    </Viewbox>
+                    <TextBlock Text="下载线程数" FontSize="15" Grid.Column="1" Margin="5,16,43,0" VerticalAlignment="Top"/>
+                    <TextBlock Text="快速下载!建议使用64线程" FontSize="12" Foreground="Gray" Grid.Column="1" Margin="7,32,41,0" Height="17" VerticalAlignment="Top"/>
+                    <Slider x:ConnectionId='3' x:Name="TaskCount"  Width="200" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center"  Margin="0,0,10,0" Maximum="200"                                      />
+                </Grid>
+            </Border>
+
+
         </Grid>
     </ScrollViewer>
 </Page>

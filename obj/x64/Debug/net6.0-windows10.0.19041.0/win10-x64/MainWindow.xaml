@@ -8,15 +8,15 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <Window.SystemBackdrop>
-        <DesktopAcrylicBackdrop></DesktopAcrylicBackdrop>
+        <MicaBackdrop />
     </Window.SystemBackdrop>
     <Grid>
-        
+
         <NavigationView x:ConnectionId='2' x:Name="nanView" IsPaneOpen="False"                                                   >
             <NavigationView.MenuItems>
                 <NavigationViewItem x:ConnectionId='3' Icon="Home"  Content="主页面" Tag="Home" x:Name="MainPages"/>
                 <NavigationViewItem x:ConnectionId='4' Icon="Add" Content="创建你的服务器!" Tag="AddServer" x:Name="AddServePages"/>
-                <NavigationViewItem x:ConnectionId='5' Icon="Download" Content="下载核心" Tag="Download" x:Name="DownloadPages"/>
+                <NavigationViewItem x:ConnectionId='5' Icon="Download" Content="下载管理" Tag="Download" x:Name="DownloadPages"/>
                 <NavigationViewItem x:ConnectionId='6' Icon="Play" Content="服务器管理" Tag="Play" x:Name="PlayPages"/>
                 <NavigationViewItem x:ConnectionId='7' Icon="Share" Content="公开你的服务器" Tag="Share" x:Name="ShareServer" IsEnabled="False" ToolTipService.ToolTip="暂未开放,等待恩人恩赐云服"/>
             </NavigationView.MenuItems>

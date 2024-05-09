@@ -10,30 +10,29 @@
     <!--StackPanel~~~-->
     <StackPanel>
     <StackPanel Spacing="-5">
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="MIT License" FontWeight="Bold" FontSize="25" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock x:ConnectionId='19' x:Name="License" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="MIT License" FontWeight="Bold" FontSize="25" IsTextSelectionEnabled="True"></TextBlock>
 
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="Copyright (c) 2024 Chuan_Yuu" FontSize="15" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock x:ConnectionId='20' x:Name="Anouther" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="Copyright (c) 2024 Chuan_Yuu" FontSize="15" IsTextSelectionEnabled="True"></TextBlock>
     </StackPanel>
         <StackPanel>
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="Permission is hereby granted, free of charge, to any person obtaining a copy" FontSize="15"  IsTextSelectionEnabled="True"></TextBlock>
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="of this software and associated documentation files (the Software), to deal" FontSize="15" IsTextSelectionEnabled="True"></TextBlock>
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="in the Software without restriction, including without limitation the rights" FontSize="15" IsTextSelectionEnabled="True"></TextBlock>
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="to use, copy, modify, merge, publish, distribute, sublicense, and/or sell" FontSize="15" IsTextSelectionEnabled="True"></TextBlock>
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="copies of the Software, and to permit persons to whom the Software is" FontSize="15" IsTextSelectionEnabled="True"></TextBlock>
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="furnished to do so, subject to the following conditions:" FontSize="15" IsTextSelectionEnabled="True"></TextBlock>
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text=" " FontSize="14" IsTextSelectionEnabled="True"></TextBlock>
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="The above copyright notice and this permission notice shall be included in all" FontSize="15" IsTextSelectionEnabled="True"></TextBlock>
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="copies or substantial portions of the Software." FontSize="15" IsTextSelectionEnabled="True"></TextBlock>
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text=" " FontSize="14" IsTextSelectionEnabled="True"></TextBlock>
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="THE SOFTWARE IS PROVIDED (AS IS), WITHOUT WARRANTY OF ANY KIND, EXPRESS OR" FontSize="14" IsTextSelectionEnabled="True"></TextBlock>
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY," FontSize="14" IsTextSelectionEnabled="True"></TextBlock>
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE" FontSize="14" IsTextSelectionEnabled="True"></TextBlock>
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER" FontSize="14" IsTextSelectionEnabled="True"></TextBlock>
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM," FontSize="14" IsTextSelectionEnabled="True"></TextBlock>
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE" FontSize="14" IsTextSelectionEnabled="True"></TextBlock>
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="SOFTWARE." FontSize="14" IsTextSelectionEnabled="True"></TextBlock>
-        </StackPanel>    
-    
+            <TextBlock x:ConnectionId='2' x:Name="op" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="Permission is hereby granted, free of charge, to any person obtaining a copy" FontSize="15"  IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock x:ConnectionId='3' x:Name="tp" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="of this software and associated documentation files (the Software), to deal" FontSize="15" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock x:ConnectionId='4' x:Name="thp" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="in the Software without restriction, including without limitation the rights" FontSize="15" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock x:ConnectionId='5' x:Name="fp" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="to use, copy, modify, merge, publish, distribute, sublicense, and/or sell" FontSize="15" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock x:ConnectionId='6' x:Name="fip" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="copies of the Software, and to permit persons to whom the Software is" FontSize="15" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock x:ConnectionId='7' x:Name="sp" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="furnished to do so, subject to the following conditions:" FontSize="15" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock x:ConnectionId='8' x:Name="sep" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text=" " FontSize="14" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock x:ConnectionId='9' x:Name="ep" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="The above copyright notice and this permission notice shall be included in all" FontSize="15" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock x:ConnectionId='10' x:Name="np" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="copies or substantial portions of the Software." FontSize="15" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock x:ConnectionId='11' x:Name="tep" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text=" " FontSize="14" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock x:ConnectionId='12' x:Name="evp" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="THE SOFTWARE IS PROVIDED (AS IS), WITHOUT WARRANTY OF ANY KIND, EXPRESS OR" FontSize="14" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock x:ConnectionId='13' x:Name="twp" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY," FontSize="14" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock x:ConnectionId='14' x:Name="threp" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE" FontSize="14" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock x:ConnectionId='15' x:Name="fop" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER" FontSize="14" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock x:ConnectionId='16' x:Name="fivp" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM," FontSize="14" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock x:ConnectionId='17' x:Name="sip" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE" FontSize="14" IsTextSelectionEnabled="True"></TextBlock>
+            <TextBlock x:ConnectionId='18' x:Name="sevp" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Text="SOFTWARE." FontSize="14" IsTextSelectionEnabled="True"></TextBlock>
+        </StackPanel>
     </StackPanel>
 </Page>
 
