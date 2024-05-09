@@ -65,7 +65,23 @@
                 </Grid>
             </Border>
 
-            
+            <Border Background="White" CornerRadius="2" VerticalAlignment="Top"  Height="67" Margin="56,256,36,0" ToolTipService.ToolTip="目前只有CMSL自制API">
+                <Grid >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Viewbox Width="25" Height="25" Margin="20,0,10,0">
+                        <FontIcon Glyph="&#xE896;"/>
+                    </Viewbox>
+                    <TextBlock Text="下载线程数" FontSize="15" Grid.Column="1" Margin="5,16,43,0" VerticalAlignment="Top"/>
+                    <TextBlock Text="快速下载!建议使用64线程" FontSize="12" Foreground="Gray" Grid.Column="1" Margin="7,32,41,0" Height="17" VerticalAlignment="Top"/>
+                    <Slider x:Name="TaskCount"  Width="200" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center"  Margin="0,0,10,0" Maximum="200" ValueChanged="TaskCount_ValueChanged"/>
+                </Grid>
+            </Border>
+
+
         </Grid>
     </ScrollViewer>
 </Page>

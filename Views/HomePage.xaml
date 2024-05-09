@@ -13,8 +13,8 @@
         <TextBlock Text="公告" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="56,0,0,0" FontSize="20" FontWeight="Bold"></TextBlock>
         <TextBlock x:Name="msg" Text="无法获取到公告信息" ToolTipService.ToolTip="如无法获取请你检查你的网络或使用VPN" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="57,30,0,0" FontSize="15" TextWrapping="Wrap" ScrollViewer.VerticalScrollBarVisibility="Auto"></TextBlock>
         <!--服务器相关-->
-        <Button x:Name="OpenServer" Style="{StaticResource AccentButtonStyle}" Content="开启服务器"  Click="OpenServer_Click" FontSize="15" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,45,60" Width="210" Height="55"/>
-        <Button x:Name="DownloadServerSide" Click="DownloadServerSide_Click" Content="创建服务器" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,150,25" Width="105" Height="35"></Button>
-        <Button x:Name="SelectedServer" Click="SelectedServer_Click" Content="选择服务器" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,45,25" Width="105" Height="35"></Button>
+        <Button x:Name="OpenServer" Style="{StaticResource AccentButtonStyle}" Content="开启服务器"  Click="OpenServer_Click" FontSize="15" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,45,75" Width="210" Height="55"/>
+        <Button x:Name="DownloadServerSide" Click="DownloadServerSide_Click" Content="创建服务器" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,150,38" Width="105" Height="35"></Button>
+        <Button x:Name="SelectedServer" Click="SelectedServer_Click" Content="选择服务器" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,45,38" Width="105" Height="35"></Button>
     </Grid>
 </Page>

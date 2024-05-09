@@ -68,14 +68,15 @@ namespace CMSL
             }
         }
 
-        private void DownloadServerSide_Click(object sender, RoutedEventArgs e)
+        private  void DownloadServerSide_Click(object sender, RoutedEventArgs e)
         {
             NavigateToPageRequested(this, "Add");
         }
 
-        private void SelectedServer_Click(object sender, RoutedEventArgs e)
+        private async void SelectedServer_Click(object sender, RoutedEventArgs e)
         {
             NavigateToPageRequested(this, "Play");
+            
         }
     }
 }

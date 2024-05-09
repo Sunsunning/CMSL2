@@ -51,6 +51,10 @@ namespace CMSL
             {
                 DownloadSource.Text = CSettings.GetValue<String>("DownloadSourceAPI");
             }
+            if (CSettings.ContainsKey("DownloadTaskCount"))
+            {
+                TaskCount.Value = CSettings.GetValue<int>("DownloadTaskCount");
+            }
         }
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -71,6 +75,11 @@ namespace CMSL
         private void DownloadSource_TextChanged(object sender, TextChangedEventArgs e)
         {
             CSettings.SetValue("DownloadSourceAPI", DownloadSource.Text);
+        }
+
+        private void TaskCount_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
+        {
+            CSettings.SetValue("DownloadTaskCount", TaskCount.Value);
         }
         private void setup_Click(object sender, RoutedEventArgs e)
         {

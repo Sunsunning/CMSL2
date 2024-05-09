@@ -9,18 +9,22 @@
     mc:Ignorable="d">
     <ScrollView HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Auto">
         <Grid>
-            <TextBox x:Name="ServerName" HorizontalAlignment="Stretch" VerticalAlignment="Top"  Margin="57,0,15,0" Header="为你的服务器取一个名字吧"></TextBox>
-            <ComboBox x:Name="ServerSide" SelectionChanged="ServerSide_SelectionChanged" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="57,60,15,0" Header="服务端核心" SelectedItem="Spigot">
+            <TextBox x:Name="ServerName" HorizontalAlignment="Stretch" VerticalAlignment="Top"  Margin="220,0,220,0" Header="服务器名称"></TextBox>
+            <ComboBox x:Name="ServerSide" SelectionChanged="ServerSide_SelectionChanged" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="220,60,220,0" Header="服务端核心" SelectedItem="Spigot">
                 <x:String>Spigot</x:String>
                 <x:String>Paper</x:String>
             </ComboBox>
-            <ComboBox x:Name="version" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="57,120,15,0" Header="服务端版本" ></ComboBox>
-            <NumberBox x:Name="Min" Header="最小运行内存" Value="1" SpinButtonPlacementMode="Inline" SmallChange="10" LargeChange="100" HorizontalAlignment="Stretch" VerticalAlignment="Top"  Margin="57,180,15,0" Minimum="1"/>
-            <NumberBox x:Name="Max" Header="最大运行内存" Value="1" SpinButtonPlacementMode="Inline" SmallChange="10" LargeChange="100" HorizontalAlignment="Stretch" VerticalAlignment="Top"  Margin="57,240,15,0" Minimum="1"/>
+            <ComboBox x:Name="version" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="220,120,220,0" Header="服务端版本" ></ComboBox>
+            <NumberBox x:Name="Min" Header="最小运行内存(G)" Value="1" SpinButtonPlacementMode="Compact" SmallChange="1" LargeChange="2" HorizontalAlignment="Stretch" VerticalAlignment="Top"  Margin="220,180,480,0" Minimum="1"/>
+            <NumberBox x:Name="Max" Header="最大运行内存(G)" Value="1" SpinButtonPlacementMode="Compact" SmallChange="1" LargeChange="2" HorizontalAlignment="Stretch" VerticalAlignment="Top"  Margin="480,180,220,0" Minimum="1"/>
+            
+            <Button x:Name="create" Click="create_Click" Content="确认并创建此配置"  Style="{StaticResource AccentButtonStyle}" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,250,360,0"></Button>
+            <Button x:Name="cancle" Click="cancle_Click" Content="取消配置"  HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,250,220,0" Width="136"  />
+            
+            <ProgressBar Value="0" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="220,290,220,0" Visibility="Collapsed" x:Name="ProgressBar"/>
             <HyperlinkButton x:Name="go" HorizontalAlignment="Right" VerticalAlignment="Bottom" Content="给我一个Star~" NavigateUri="https://github.com/Sunsunning/cmsl" />
-            <Button x:Name="create" Click="create_Click" Content="确认并创建此配置"  Style="{StaticResource AccentButtonStyle}" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,304,158,0"></Button>
-            <Button x:Name="cancle" Click="cancle_Click" Content="取消配置"  HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,304,15,0" Width="136"  />
-            <ProgressBar Value="0" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="57,320,293,0" Visibility="Collapsed" x:Name="ProgressBar"/>
         </Grid>
     </ScrollView>
 </Page>
+
+    

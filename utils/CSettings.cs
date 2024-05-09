@@ -14,7 +14,8 @@ namespace CMSL.utils
             {
                 { "notices", "Toast(Win10+)" },
                 { "SaveDirectory", @"D:\CMSL" },
-                {"DownloadSourceAPI","https://gitee.com/chuan_yu/cmsl" }
+                {"DownloadSourceAPI","https://gitee.com/chuan_yu/cmsl" },
+                {"DownloadTaskCount",64 }
             };
         
 

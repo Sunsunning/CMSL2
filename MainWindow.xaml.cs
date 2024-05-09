@@ -35,6 +35,7 @@ namespace CMSL
     public sealed partial class MainWindow : Window
     {
         private CSettings settings;
+
         public MainWindow()
         {
             this.InitializeComponent();
@@ -42,13 +43,27 @@ namespace CMSL
 
             ExtendsContentIntoTitleBar = true;
             settings = new CSettings();
-            SystemBackdrop = new DesktopAcrylicBackdrop();
 
             initSettings();
             nanView.SelectedItem = MainPages;
+            TrySetMicaBackdrop(true);
 
             HomePage.NavigateToPageRequested += SetNavigationViewSelectedItem;
             AddServerPage.NavigateToPageRequested += SetNavigationViewSelectedItem;
+        }
+
+        bool TrySetMicaBackdrop(bool useMicaAlt)
+        {
+            if (Microsoft.UI.Composition.SystemBackdrops.MicaController.IsSupported())
+            {
+                Microsoft.UI.Xaml.Media.MicaBackdrop micaBackdrop = new Microsoft.UI.Xaml.Media.MicaBackdrop();
+                micaBackdrop.Kind = useMicaAlt ? Microsoft.UI.Composition.SystemBackdrops.MicaKind.BaseAlt : Microsoft.UI.Composition.SystemBackdrops.MicaKind.Base;
+                this.SystemBackdrop = micaBackdrop;
+
+                return true; // Succeeded.
+            }
+
+            return false; // Mica is not supported on this system.
         }
 
         private void NavigationView_SelectionChanged(NavigationView sender, NavigationViewSelectionChangedEventArgs args)
@@ -61,8 +76,9 @@ namespace CMSL
             else
             {
                 var selectedItem = args.SelectedItem as NavigationViewItem;
-                sender.Header = selectedItem.Content;
                 Type pageType = null;
+                sender.Header = selectedItem.Content;
+
                 switch (selectedItem.Tag.ToString())
                 {
                     case "Home":
@@ -73,6 +89,9 @@ namespace CMSL
                         break;
                     case "Concerning":
                         pageType= typeof(ConcerningPage);
+                        break;
+                    case "Download":
+                        pageType = typeof(DownloadManager);
                         break;
                     default:
                         pageType = typeof(NotFoundPage);

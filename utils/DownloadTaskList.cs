@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CMSL.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,27 +9,39 @@ namespace CMSL.utils
 {
     public class DownloadTaskList
     {
-        private List<DownloadItem> items;
+        private List<DownloadTaskListItem> items;
+        public static event EventHandler<DownloadTaskListItem> OnDownloadTaskList;
+        public static event EventHandler<string> OnProcessDownload;
         public DownloadTaskList()
         {
-            items = new List<DownloadItem>();
+            items = new List<DownloadTaskListItem>();
         }
-        public void AddItem(DownloadItem item)
+        public int getCount()
+        {
+            return items.Count;
+        }
+
+        public void AddItem(DownloadTaskListItem item)
+        {
+            item.id = items.Count + 1;
+            items.Add(item);
+            OnDownloadTaskList(this, item);
+        }
+        
+        public void RemoveItem(string name)
         {
             foreach (var downloadItem in items)
             {
-                if (downloadItem != null && item != null) { 
-                    if (downloadItem.id == item.id)
-                    {
-                        throw new Exception("重复ID这是不允许的标签");
-                    }
-                    items.Add(downloadItem);
+                if (downloadItem == null || downloadItem.name == null) continue;
+                if (downloadItem.name == name)
+                {
+                    items.Remove(downloadItem);
+                    OnProcessDownload(this, name);
                 }
-            }
+            }   
         }
-        
 
-        public class DownloadItem
+        public class DownloadTaskListItem
         {
             public int id;
             public string name;

@@ -37,12 +37,12 @@ namespace CMSL
             this.InitializeComponent();
 
             CreateDirectory("D:\\CMSL");
-            CreateDirectory("D:\\CMSL\\Server");
+            CreateDirectory("D:\\CMSL\\MyDownload");
             CreateDirectory("D:\\CMSL\\java");
             CreateDirectory("D:\\CMSL\\Spigot");
             CreateDirectory("D:\\CMSL\\Paper");
-            CreateDirectory("D:\\CMSL\\Forge");
-            CreateDirectory("D:\\CMSL\\Fabric");
+            CreateDirectory("D:\\CMSL\\Forge-test");
+            CreateDirectory("D:\\CMSL\\Fabric-test");
         }
 
         private void CreateDirectory(string path)

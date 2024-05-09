@@ -24,6 +24,7 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Views\ConcerningPage.xaml" />
+    <None Remove="Views\DownloadManager.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -51,6 +52,11 @@
   -->
   <ItemGroup Condition="'$(DisableMsixProjectCapabilityAddedByProject)'!='true' and '$(EnableMsixTooling)'=='true'">
     <ProjectCapability Include="Msix" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Views\DownloadManager.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Views\ConcerningPage.xaml">
